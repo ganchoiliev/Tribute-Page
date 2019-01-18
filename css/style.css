@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background: #fbffc3;
+}
+h1 {
+  font-family: Sans-serif;
+  font-size: 40px;
+  background: #f9e203;
+  padding: 10px;
+  margin: 5px 0px 50px 0px;
+  
+}
+h5 {
+  text-align: left;
+  font-size: 16px;
+  font-family: Sans-serif;
+  font-weight: 500;
+  font-variant: small-caps;
+  
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: yellow;
+}
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 425px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#img-caption {
+  font-family: Sans-serif;
+  font-size: 24px;
+  background: #8ac7ff;
+  margin: 1px;
+}
+#title {
+    animation-name: rainbow;
+    animation-duration: 4s;
+  }
+  @keyframes rainbow{
+    0% {
+      background-color: #fbffc3;
+    }
+    50% {
+      background-color: #fbffc3;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
